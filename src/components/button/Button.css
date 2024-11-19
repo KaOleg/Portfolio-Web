@@ -1,0 +1,31 @@
+.gradient-button{
+    padding: 14px 20px;
+    position: relative;
+    border-radius: 40px;
+    height: 52px;
+    width: 103px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.gradient-button-content{
+    background: var(--gradient);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.gradient-button-stroke{
+    background: var(--gradient-reverse);
+    position: absolute;
+    height: 105%;
+    width: 103%;
+    top: 50%;
+    left: 50%;
+    border-radius: 40px;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,10 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: fit-content;
+}
+.logo span{
+    font-size: 24px;
+}
